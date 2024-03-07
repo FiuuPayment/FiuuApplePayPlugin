@@ -1,12 +1,13 @@
 <!--
  # license: Copyright © 2011-2022 Razer Merchant Services Sdn Bhd. All Rights Reserved. 
  -->
- 
- ![banner RMSxApple pay](https://user-images.githubusercontent.com/23319632/195564869-633131d8-0e0d-4ca1-899b-464b9e307c98.png)
 
-# [Mobile Plugin] - RazerMS Apple Pay Plugin
+ ![banner FiuuxApple pay](https://github.com/FiuuPayment/FiuuApplePayPlugin/assets/5105608/efa71962-7279-4251-89d3-60fac0223f75)
 
-This is the complete and functional Razer Merchant Services Apple Pay Plugin payment module that is ready to be implemented into XCode application project through Cocoapods framework.
+
+# [Mobile Plugin] - Fiuu Apple Pay Plugin
+
+This is the complete and functional Fiuu Apple Pay Plugin payment module that is ready to be implemented into XCode application project through Cocoapods framework.
 
 ## Recommended configurations
 
@@ -20,7 +21,7 @@ This is the complete and functional Razer Merchant Services Apple Pay Plugin pay
 
 ### CocoaPods
 
-CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate RazerMS Apple Pay Plugin into your Xcode project using CocoaPods, specify it in your Podfile:
+CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Fiuu Apple Pay Plugin into your Xcode project using CocoaPods, specify it in your Podfile:
 
     pod 'razerms_applepay_plugin', '~> 1.0.2'
 
@@ -36,7 +37,7 @@ CocoaPods is a dependency manager for Cocoa projects. For usage and installation
 
 ## Prepare the Payment detail object
 
-    // Mandatory String. Values obtained from Razer Merchant Services.
+    // Mandatory String. Values obtained from Fiuu.
     ap.paymentData.setValue("", forKey: "merchantID")
     ap.paymentData.setValue("", forKey: "verifyKey")
 
@@ -111,29 +112,28 @@ CocoaPods is a dependency manager for Cocoa projects. For usage and installation
     
     Parameter and meaning:
     
-    "Fail to detokenize Apple Pay Token given" - Error starting a payment process due to several possible reasons, please contact Razer Merchant Services support should the error persists.
+    "Fail to detokenize Apple Pay Token given" - Error starting a payment process due to several possible reasons, please contact Fiuu support should the error persists.
     1) Misconfigure ApplePay setup
     2) API credentials (username, password, merchant id, verify key)
-    3) Razer Merchant Services server offline.
+    3) Fiuu server offline.
 
 ## Resources
-
-- GitHub:     https://github.com/RazerMS
-- Website:    https://merchant.razer.com/
-- Twitter:    https://twitter.com/Razer_MS
-- YouTube:    https://www.youtube.com/c/RazerMerchantServices
-- Facebook:   https://www.facebook.com/RazerMerchantServices/
-- Instagram:  https://www.instagram.com/RazerMerchantServices/
+- GitHub:     https://github.com/FiuuPayment
+- Website:    https://fiuu.com/
+- Twitter:    https://twitter.com/FiuuPayment
+- YouTube:    https://www.youtube.com/c/FiuuPayment
+- Facebook:   https://www.facebook.com/FiuuPayment/
+- Instagram:  https://www.instagram.com/FiuuPayment/
 
 
 ## Support
 
-Submit issue to this repository or email to our support-sa@razer.com
+Submit issue to this repository or email to our support@fiuu.com
 
-Merchant Technical Support / Customer Care : suppor-sa@razer.com<br>
-Sales/Reseller Enquiry : sales-sa@razer<br>
-Marketing Campaign : marketing-sa@razer<br>
-Channel/Partner Enquiry : channel-sa@razer<br>
-Media Contact : media-sa@razer.com<br>
-R&D and Tech-related Suggestion : technical-sa@razer.com<br>
-Abuse Reporting : abuse-sa@razer.com
+Merchant Technical Support / Customer Care : support@fiuu.com<br>
+Sales/Reseller Enquiry : sales@fiuu.com<br>
+Marketing Campaign : marketing@fiuu.com<br>
+Channel/Partner Enquiry : channel@fiuu.com<br>
+Media Contact : media@fiuu.com<br>
+R&D and Tech-related Suggestion : technical@fiuu.com<br>
+Abuse Reporting : abuse@fiuu.com
